@@ -32,6 +32,7 @@ import { useState } from "react";
 // import Purl from "../../public/purllogo.png";
 import HomeSplash from '../components/HomeSplash/HomeSplash.js';
 import Mission from '@/components/Mission/Mission.js';
+import About from '@/components/About/About.js';
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -43,6 +44,7 @@ export default function Home() {
       <main className="bg-slate-800">
         <HomeSplash darkMode={darkMode} />
         <Mission />
+        <About />
         
       </main>
     </div>
