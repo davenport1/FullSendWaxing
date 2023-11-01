@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import Logo from "../../../public/logodark.png";
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Header = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -22,7 +23,11 @@ const Header = () => {
         <button className="bg-teal-500 hover:bg-teal-600 text-white py-2 px-6 rounded-full font-semibold text-lg mx-5">Shred Blog</button>
       </div>
       <div className="flex items-center">
-        <button className="bg-teal-500 hover:bg-teal-600 text-white py-2 px-6 rounded-full font-semibold text-lg mx-5">Contact</button>
+        <Link href="/contact">
+          <button className="bg-teal-500 hover:bg-teal-600 text-white py-2 px-6 rounded-full font-semibold text-lg mx-5">
+            Contact
+          </button>
+        </Link>
         <button
           className="bg-teal-500 hover:bg-teal-600 text-white py-2 px-6 rounded-full font-semibold text-lg mx-5"
           onClick={() => setDarkMode(!darkMode)}

@@ -1,5 +1,6 @@
 'use client'
 import React, { useState, useEffect } from 'react';
+
 import Header from '../components/Header/Header.js';
 import HomeSplash from '../components/HomeSplash/HomeSplash.js';
 import Mission from '@/components/Mission/Mission.js';
@@ -8,7 +9,7 @@ import Tuning from '@/components/Services/Tuning.js';
 import Repairs from '@/components/Services/Repairs.js';
 import Products from '@/components/Products/Products.js';
 import Reviews from '@/components/Reviews/Reviews.js';
-import Contact from '@/components/Contact/Contact.js';
+import Contact from '@/app/Contact.js';
 
 
 export default function Home() {
