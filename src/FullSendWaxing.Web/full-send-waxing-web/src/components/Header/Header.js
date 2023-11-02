@@ -1,3 +1,4 @@
+'use client'
 import React, { useState } from 'react';
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import Logo from "../../../public/logodark.png";

@@ -9,7 +9,6 @@ import Tuning from '@/components/Services/Tuning.js';
 import Repairs from '@/components/Services/Repairs.js';
 import Products from '@/components/Products/Products.js';
 import Reviews from '@/components/Reviews/Reviews.js';
-import Contact from '@/app/Contact.js';
 
 
 export default function Home() {
@@ -28,8 +27,6 @@ export default function Home() {
 
   return (
     <div>
-      <title>FullSendWaxing</title>
-      <Header />
       <main className="bg-slate-800">
         <HomeSplash darkMode={darkMode} />
         <div className="bg-slate-800 flex flex-wrap">
